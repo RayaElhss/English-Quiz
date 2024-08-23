@@ -1,0 +1,76 @@
+.quizContainer {
+    background-color: #1a0f75;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.quizTitle {
+    margin-bottom: 30px;
+    font-size: 1.8em;
+}
+
+.question {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #00b3ff;
+}
+
+.option {
+    display: block;
+    background-color: #2a1f8a;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option input {
+    margin-right: 10px;
+}
+
+.option:hover {
+    background-color: #3c2eb3;
+}
+
+.submitButton {
+    background-color: #00e4ff;
+    color: #1a0f75;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.submitButton:hover {
+    background-color: #00b3ff;
+}
+
+.progressContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.progressBar {
+    background-color: #2a1f8a;
+    border-radius: 10px;
+    width: 60%;
+    height: 10px;
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #00e4ff;
+    height: 100%;
+}
