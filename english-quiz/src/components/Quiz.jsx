@@ -62,7 +62,7 @@ const Quiz = () => {
                 <button type="submit" className={styles.submitButton}>
                     NEXT
                 </button>
-                {showError && <p className={styles.errorMessage}>Incorrect! Please try again.</p>}
+                {showError && <p className={styles.errorMessage}>Грешка! Я пак!</p>}
             </form>
             <div className={styles.progressContainer}>
                 <span>{`${currentQuestionIndex + 1} / ${quizData.length}`}</span>
